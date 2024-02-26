@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "ofhumanbondage.react-proptypes-intellisense",
+    "mgmcdermott.vscode-language-babel",
+    "wix.vscode-import-cost",
+    "editorconfig.editorconfig",
+    "prisma.prisma",
+    "graphql.vscode-graphql",
+    "github.copilot",
+    "github.copilot-chat",
+    "ms-azuretools.vscode-docker",
+    "formulahendry.docker-explorer",
+    "formulahendry.docker-extension-pack",
+    "decoupled.redwoodjs-ide",
+    "vscode-icons-team.vscode-icons",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "csstools.postcss",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "pkief.material-icon-theme",
+    "ms-vsliveshare.vsliveshare",
+    "wayou.vscode-todo-highlight",
+    "usernamehw.errorlens"
+  ],
+  "unwantedRecommendations": []
+}

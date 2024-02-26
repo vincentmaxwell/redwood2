@@ -1,0 +1,40 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "yarn install && yarn redwood build",
+  "postCreateCommand": "",
+  "postAttachCommand": "yarn rw dev",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "web/src/App.tsx"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "8910": {
+      "label": "Web",
+      "onAutoForward": "openPreview"
+    },
+    "8911": {
+      "label": "API",
+      "onAutoForward": "openPreview"
+    },
+    "5432": {
+      "label": "Database",
+      "onAutoForward": "openPreview"
+    },
+    "5555": {
+      "label": "Prisma Studio",
+      "onAutoForward": "openPreview"
+    },
+    "7910": {
+      "label": "Storybook",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [8910, 8911, 5432, 5555, 7910]
+}
